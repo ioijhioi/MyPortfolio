@@ -17,6 +17,149 @@ rel="stylesheet">
 <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__menu">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item">About</li>
+                <li class="navbar__menu__item">Skills</li>
+                <li class="navbar__menu__item">My work</li>
+                <li class="navbar__menu__item">Contact</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <h1 class="home__title">개발자 DoubleShine의 포트폴리오입니다</h1>
+        <h2 class="home__description">항상 배우고 싶어하는 개발자입니다</h2>
+        <button class="home__contact">Contact Me</button>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>개발을 공부한지 1년정도 되었으며 React로 개인프로젝트, 
+            React-Native로 팀프로젝트를 진행한 경험이 있습니다.
+            또한, 2 개월 동안 인턴생활을 하면서 소셜 로그인(구글,네이버,페이스북), 
+            윈도우에서 우분투 설치 등을 작업하였습니다.
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+                <div class="major__title">Front-end</div>
+                <div class="major__description">
+                    HTML5, CSS, JavaScript, React
+                </div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fa-light fa-mobile"></i>
+                </div>
+                <div class="major__title">Mobile</div>
+                <div class="major__description">
+                    ReactNative,Android
+                </div>
+            </div>
+        </div>
+        <div class="about__jobs">
+            <div class="job">
+                <img 
+                    src="images/jobs/codecamp.png" 
+                    alt="codecamp"
+                    class="job__logo"
+                />
+                <p class="job__name">
+                    개발자 부트캠프인 코드캠프에서 3개월과정 이수
+                </p>
+                <p class="job__period">2021 Sept - 2021 Dec</p>
+            </div>
+            <div class="job">
+                <img 
+                    src="images/jobs/newbiz.png" 
+                    alt="newbiz"
+                    class="job__logo"
+                />
+                <p class="job__name">
+                    스타트업 앱개발을 하는 뉴비즈스타트에서 2개월간 인턴으로 근무
+                </p>
+                <p class="job_porid">2022 Jan - 2022 Feb</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>React를 사용해 개인프로젝트로 웹페이지와 ReactNative를 사용해 팀프로젝트로 앱을 개발한 경험이 있습니다. <br/>
+            또한, 새로운거를 배우는데 관심이 있으며 개인작업과 팀작업 둘다 선호하며, 팀작업시 의사소통을 하는걸 좋아합니다.
+        </p>
+        <div class="skillset">
+            <div class="skillset__left">
+                <h3 class="skillset__title">Skills</h3>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>HTML5</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill-value"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill-value"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>JavaScript</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill-value"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>React</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill-value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillset__right">
+                <div class="tools">
+                    <h3 class="skillset_title">Tools</h3>
+                    <ul class="tools__list">
+                        <li><span>Visual Studio Code</span></li>
+                        <li><span>Android Studio Code</span></li>
+                    </ul>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset_title">Etc</h3>
+                    <ul class="etc__list">
+                        <li><span>Git</span></li>
+                        <li><span>Social Login</span></li>
+                        <li><span>Design</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- works -->
+    <section id="works"></section>
+    <!-- contact -->
+    <section id="contact"></section>
 </body>
 </html>
