@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans:wght@400;600;700&display=swap" 
 rel="stylesheet">
 <link rel="stylesheet" href="style.css"/>
+<!-- <link href="assets/css/bootstrap.css" rel="stylesheet"> -->
 <script src="main.js" defer></script>
 </head>
 <body>
@@ -28,6 +29,8 @@ rel="stylesheet">
                 <li class="navbar__menu__item">Contact</li>
             </ul>
         </div>
+        <!-- Toogle button -->
+        <button class="navbar__toggle-btn"></button>
     </nav>
 
     <!-- Home -->
@@ -43,14 +46,15 @@ rel="stylesheet">
     </section>
 
     <!-- About -->
-    <section id="about" class="section">
-        <h1>About Me</h1>
-        <p>개발을 공부한지 1년정도 되었으며 React로 개인프로젝트, 
+    <section id="about" class="section section__container ">
+        <div class="section__container">
+            <h1>About Me</h1>
+            <p>개발을 공부한지 1년정도 되었으며 React로 개인프로젝트, 
             React-Native로 팀프로젝트를 진행한 경험이 있습니다.
             또한, 2 개월 동안 인턴생활을 하면서 소셜 로그인(구글,네이버,페이스북), 
             윈도우에서 우분투 설치 등을 작업하였습니다.
-        </p>
-        <div class="about__majors">
+            </p>
+            <div class="about__majors">
             <div class="major">
                 <div class="major__icon">
                     <i class="fa-brands fa-react"></i>
@@ -100,6 +104,8 @@ rel="stylesheet">
                 
             </div>
         </div>
+        </div>
+        
     </section>
 
     <!-- skills -->
@@ -208,7 +214,7 @@ rel="stylesheet">
         </div>
         <div class="work__projects">
             <a 
-                href="https://github.com/ioijhioi/NewDogether" 
+                href="https://github.com/DogetherProject1/Movi-Tes.git" 
                 class="project"
                 tartget="blank"
             >
@@ -224,7 +230,7 @@ rel="stylesheet">
         </div>
         <div class="work__projects">
             <a 
-                href="https://velog.io/" 
+                href="https://velog.io/@ioijhioi" 
                 class="project"
                 tartget="blank"
             >
@@ -243,8 +249,8 @@ rel="stylesheet">
     <!-- contact -->
     <section id="contact" class="section">
         <h1 class="contact__title">Let`s talk</h1>
-        <h2 class="contact_email">jhlcoder@gmail.com</h2>
-        <h3 class="contact_phone">010-3582-9114</h3>
+        <h2 class="contact__email">jhlcoder@gmail.com</h2>
+        <h3 class="contact__phone">010-3582-9114</h3>
         <div class="contact__links">
             <a href="https://github.com/ioijhioi" target="_blank">
                 <i class="fab fa-github"></i>
