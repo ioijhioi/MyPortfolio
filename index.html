@@ -32,13 +32,18 @@ rel="stylesheet">
 
     <!-- Home -->
     <section id="home">
-        <h1 class="home__title">개발자 DoubleShine의 포트폴리오입니다</h1>
+        <img
+            src="images/profile.jpg"
+            alt="DB-Shine`s porfile photo"
+            class="home__avatar"
+        />
+        <h1 class="home__title">DoubleShine의 <br/>포트폴리오입니다</h1>
         <h2 class="home__description">항상 배우고 싶어하는 개발자입니다</h2>
         <button class="home__contact">Contact Me</button>
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section">
         <h1>About Me</h1>
         <p>개발을 공부한지 1년정도 되었으며 React로 개인프로젝트, 
             React-Native로 팀프로젝트를 진행한 경험이 있습니다.
@@ -50,19 +55,19 @@ rel="stylesheet">
                 <div class="major__icon">
                     <i class="fa-brands fa-react"></i>
                 </div>
-                <div class="major__title">Front-end</div>
-                <div class="major__description">
+                <h2 class="major__title">Front-end</h2>
+                <h2 class="major__description">
                     HTML5, CSS, JavaScript, React
-                </div>
+                </h2>
             </div>
             <div class="major">
                 <div class="major__icon">
                     <i class="fa-light fa-mobile"></i>
                 </div>
-                <div class="major__title">Mobile</div>
-                <div class="major__description">
+                <h2 class="major__title">Mobile</h2>
+                <h2 class="major__description">
                     ReactNative,Android
-                </div>
+                </h2>
             </div>
         </div>
         <div class="about__jobs">
@@ -72,10 +77,13 @@ rel="stylesheet">
                     alt="codecamp"
                     class="job__logo"
                 />
-                <p class="job__name">
+                <div class="job__description">
+                    <p class="job__name">
                     개발자 부트캠프인 코드캠프에서 3개월과정 이수
-                </p>
-                <p class="job__period">2021 Sept - 2021 Dec</p>
+                    </p>
+                    <p class="job__period">2021 Sept - 2021 Dec</p>
+                </div>
+                
             </div>
             <div class="job">
                 <img 
@@ -83,17 +91,21 @@ rel="stylesheet">
                     alt="newbiz"
                     class="job__logo"
                 />
-                <p class="job__name">
-                    스타트업 앱개발을 하는 뉴비즈스타트에서 2개월간 인턴으로 근무
-                </p>
-                <p class="job_porid">2022 Jan - 2022 Feb</p>
+                <div class="job__description">
+                    <p class="job__name">
+                        스타트업 앱개발을 하는 뉴비즈스타트에서 2개월간 인턴으로 근무
+                    </p>
+                    <p class="job__period">2022 Jan - 2022 Feb</p>
+                </div>
+                
             </div>
         </div>
     </section>
 
     <!-- skills -->
-    <section id="skills">
-        <h1>Skills</h1>
+    <section id="skills" class="section section__container">
+        <div class="section__container">
+            <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
         <p>React를 사용해 개인프로젝트로 웹페이지와 ReactNative를 사용해 팀프로젝트로 앱을 개발한 경험이 있습니다. <br/>
             또한, 새로운거를 배우는데 관심이 있으며 개인작업과 팀작업 둘다 선호하며, 팀작업시 의사소통을 하는걸 좋아합니다.
@@ -102,52 +114,52 @@ rel="stylesheet">
             <div class="skillset__left">
                 <h3 class="skillset__title">Skills</h3>
                 <div class="skill">
-                    <div class="skill_description">
+                    <div class="skill__description">
                         <span>HTML5</span>
                         <span>60%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill-value"></div>
+                        <div class="skill__value" style="width: 60%;"></div>
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill_description">
+                    <div class="skill__description">
                         <span>CSS</span>
                         <span>70%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill-value"></div>
+                        <div class="skill__value" style="width: 70%;"></div>
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill_description">
+                    <div class="skill__description">
                         <span>JavaScript</span>
                         <span>70%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill-value"></div>
+                        <div class="skill__value" style="width: 70%;"></div>
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill_description">
+                    <div class="skill__description">
                         <span>React</span>
                         <span>80%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill-value"></div>
+                        <div class="skill__value" style="width: 80%;"></div>
                     </div>
                 </div>
             </div>
             <div class="skillset__right">
                 <div class="tools">
-                    <h3 class="skillset_title">Tools</h3>
+                    <h3 class="skillset__title">Tools</h3>
                     <ul class="tools__list">
                         <li><span>Visual Studio Code</span></li>
                         <li><span>Android Studio Code</span></li>
                     </ul>
                 </div>
                 <div class="etc">
-                    <h3 class="skillset_title">Etc</h3>
+                    <h3 class="skillset__title">Etc</h3>
                     <ul class="etc__list">
                         <li><span>Git</span></li>
                         <li><span>Social Login</span></li>
@@ -156,33 +168,38 @@ rel="stylesheet">
                 </div>
             </div>
         </div>
+        </div>
+        
     </section>
 
     <!-- works -->
-    <section id="works">
+    <section id="works" class="section">
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-            <button class="category__button">
+            <button class="category__btn">
                 All<span class="category__count">3</span>
             </button>
-            <button class="category__button">
+            <button class="category__btn">
                 Solo-project<span class="category__count">1</span>
             </button>
-            <button class="category__button">
+            <button class="category__btn">
                 Team-project<span class="category__count">1</span>
             </button>
-            <button class="category__button">
-                MyBlog<span class="category__count"></span>1
+            <button class="category__btn">
+                MyBlog<span class="category__count">1</span>
             </button>
         </div>
         <div class="work__projects">
             <a 
                 href="https://github.com/ioijhioi/codecamp-03/tree/master/freeboard_frontend" 
-                class="project_image"
+                class="project"
                 tartget="blank"
             >
-            <img src="images/jobs/codecamp.png">
+            <img 
+                src="images/jobs/codecamp.png"
+                class="project__img"
+            >
             <div class="project__description">
                 <h3>Solo-project</h3>
                 <span>FirstProject with React</span>
@@ -192,10 +209,13 @@ rel="stylesheet">
         <div class="work__projects">
             <a 
                 href="https://github.com/ioijhioi/NewDogether" 
-                class="project_image"
+                class="project"
                 tartget="blank"
             >
-            <img src="images/jobs/codecamp.png">
+            <img 
+                src="images/jobs/codecamp.png"
+                class="project__img"
+            >
             <div class="project__description">
                 <h3>Team-project</h3>
                 <span>FirstTeamProject with ReactNative</span>
@@ -205,10 +225,13 @@ rel="stylesheet">
         <div class="work__projects">
             <a 
                 href="https://velog.io/" 
-                class="project_image"
+                class="project"
                 tartget="blank"
             >
-            <img src="images/jobs/codecamp.png">
+            <img 
+                src="images/jobs/codecamp.png"
+                class="project__img"
+            >
             <div class="project__description">
                 <h3>My Blogs</h3>
                 <span>My Develop Diary</span>
@@ -218,7 +241,7 @@ rel="stylesheet">
     </section>
 
     <!-- contact -->
-    <section id="contact">
+    <section id="contact" class="section">
         <h1 class="contact__title">Let`s talk</h1>
         <h2 class="contact_email">jhlcoder@gmail.com</h2>
         <h3 class="contact_phone">010-3582-9114</h3>
