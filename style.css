@@ -183,7 +183,7 @@ p {
 /* About */
 .about__majors {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 80px 0px;
 }
 
